@@ -101,7 +101,7 @@ const Admission = () => {
                     <div className='h-[3px] w-16 bg-red-800'></div>
                 </div>
                 {/* form Part */}
-                <div className="space-y-5">
+                <from action="https://getform.io/f/006d9ef1-92b0-4eea-afd7-96b922c11e63" method="POST" className="space-y-5">
                     <div className='md:flex md:flex-row flex flex-col justify-evenly
                  items-center'>
                         <div className='flex flex-col gap-y-3'>
@@ -243,10 +243,28 @@ const Admission = () => {
                     </div>
                     {/* Submition */}
                     <div className='flex justify-center mt-20'>
-                        <button onClick={handleSubmit} className='px-10 py-3 text-xl hover:text-2xl text-white font-SptFont font-bold bg-red-800 hover:bg-red-600 rounded-2xl'>Submit</button>
+                        <button type="submit" className='px-10 py-3 text-xl hover:text-2xl text-white font-SptFont font-bold bg-red-800 hover:bg-red-600 rounded-2xl'>Submit</button>
                     </div>
-                </div>
+                </from>
+                <form action="https://getform.io/f/006d9ef1-92b0-4eea-afd7-96b922c11e63" method="POST">
+                    <input className='border border-slate-900 w-20 h-5' type="text" name="name" />
+                    <input type="email" name="email" />
+                    <input type="text" name="message" />
+                    <input type="hidden" name="_gotcha"/>
 
+                    <input type="checkbox" name="subscribe" value="yes" checked />
+                    <input type="hidden" name="subscribe" value="no" />
+
+                    <input type="radio" name="gender" value="male" checked />
+                    <input type="radio" name="gender" value="female" />
+                    <input type="radio" name="gender" value="other" />
+
+                    <select name="work-experience">
+                        <option value="one-year">0-1 years</option>
+                        <option value="one-five-years">1-5 years</option>
+                    </select>
+                    <button type="submit">Send</button>
+                </form>
             </div>
         </div>
     );

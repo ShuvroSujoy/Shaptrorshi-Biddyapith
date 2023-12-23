@@ -28,8 +28,8 @@ const SptCourses2 = () => {
   return (
     <div className='container'>
       <div className='flex flex-col items-center gap-5 mt-10 '>
-        <h1 className='md:text-4xl text-xl text-red-600 text-center font-SptFont2'>
-          Our Activities On Classes
+        <h1 className='md:text-4xl text-xl text-red-600 text-center font-bold text-center w-3/5 md:w-2/5'>
+        নতুন কারিকুলাম অনুযায়ী আমাদের সেবা
         </h1>
         <div className='flex items-center'>
           <div className='h-[3px] w-16 bg-red-800'></div>
@@ -39,33 +39,33 @@ const SptCourses2 = () => {
       </div>
       <div className="lg:mx-20 md:mx-10 mx-2 mt-10 mb-10">
         <Slider {...settings}>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/project1.jpg" alt="" />
-            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">Spoken English</h2>
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/spokenenglish.png" alt="" />
+            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2 uppercase">Spoken English program.</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptLogo.png" alt="" />
-            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">Prige</h2>
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/banglproject.png" alt="" />
+            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">ব্যাকরণ ও সাহিত্য চর্চার মাধ্যমে বাংলা PROJECT.</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/project1.jpg" alt="" />
-            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">Prige</h2>
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/Math.jpeg" alt="" />
+            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">প্রয়োজন বুঝে গণিত শিখন।</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptLogo.png" alt="" />
-            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">Prige</h2>
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/scienceproject.jpg" alt="" />
+            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">বাস্তবভিত্তিক বিজ্ঞান PROJECT.</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptLogo3.jpg" alt="" />
-            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">Prige</h2>
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/bgs.jpg" alt="" />
+            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">জীবনের ক্ষেত্রে বাংলাদেশ ও বিশ্বপরিচয়।</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/project1.jpg" alt="" />
-            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">Prige</h2>
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/islam.png" alt="" />
+            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">অনুশীলনের মাধ্যমে ধর্মীয় শিক্ষা।</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptLogo3.jpg" alt="" />
-            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">Prige</h2>
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/digitaltechnology.jpg" alt="" />
+            <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">বিশ্বের কর্মক্ষেত্রে নিজেকে যোগ্যতার আসনে বসাতে ডিজিটাল প্রযুক্তি শিক্ষা।</h2>
           </div>
         </Slider>
       </div>

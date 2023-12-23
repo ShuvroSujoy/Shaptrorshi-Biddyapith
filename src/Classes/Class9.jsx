@@ -11,8 +11,8 @@ const Class9 = () => {
             <div className='flex md:flex-row flex-col-reverse gap-5 mt-10 mb-10 '>
                 {/* Main Part */}
                 <div className='flex flex-col gap-y-5'>
-                    <h1 className='md:text-4xl text-2xl text-black font-bold'>Class 9 শ্রেণি- Offline ব্যাচ ২০২৪</h1>
-                    <p className='text-base text-gray-500 header-text-width'>বাংলাদেশের যেকোনো প্রান্তের সপ্তম শ্রেণির শিক্ষার্থীদের পড়লেখায় সাহায্য করতে, নতুন জাতীয় শিক্ষাক্রম অনুযায়ী পড়াশোনার সবকিছু নিয়ে সাজানো হয়েছে ৭ম শ্রেণি - অনলাইন ব্যাচ ২০২৪।</p>
+                    <h1 className='md:text-4xl text-2xl text-black font-bold'>২০২৪ শিক্ষাবর্ষের ৯ম শ্রেণীতে ভর্তি চলছে</h1>
+                    <p className='text-base text-gray-500 header-text-width'>বাংলাদেশের যেকোনো প্রান্তের ৯ম শ্রেণির শিক্ষার্থীদের পড়লেখায় সাহায্য করতে, নতুন জাতীয় শিক্ষাক্রম অনুযায়ী পড়াশোনার সবকিছু নিয়ে সাজানো হয়েছে ৯ম শ্রেণি - ব্যাচ ২০২৪।</p>
                     <div className='space-y-5'>
                         <h2 className='text-zinc-950 text-2xl font-semibold'>ফুল সিলেবাস প্রোগ্রামে যা যা থাকছে</h2>
                         <div className='border border-2 rounded-md p-3 flex flex-col gap-y-3'>
@@ -21,8 +21,8 @@ const Class9 = () => {
                                 <div className='flex items-start gap-x-3'>
                                     <IoIosCheckmark size={40} className='text-red-800' />
                                     <div className='flex flex-col'>
-                                        <h3 className='text-black font-semibold text-xl'>অনলাইনেই বাংলাদেশের সেরা শিক্ষক</h3>
-                                        <p className='text-black font-normal text-base text-width'>- বাংলাদেশের যেকোনো জায়গা থেকে দেশসেরা শিক্ষকদের (ঢাবি, বুয়েট এবং মেডিকেল) কাছে অনলাইনে সর্বোচ্চ মানের পড়ালেখার সুযোগ</p>
+                                        <h3 className='text-black font-semibold text-xl'>সপ্তর্ষীতেই সেরা শিক্ষক</h3>
+                                        <p className='text-black font-normal text-base text-width'>- বাংলাদেশের যেকোনো জায়গা থেকে দেশসেরা শিক্ষকদের কাছে অনলাইনে সর্বোচ্চ মানের পড়ালেখার সুযোগ</p>
                                     </div>
                                 </div>
                                 <div className='flex items-start gap-x-3'>
@@ -46,7 +46,7 @@ const Class9 = () => {
                                     <IoIosCheckmark size={40} className='text-red-800' />
                                     <div className='flex flex-col'>
                                         <h3 className='text-black font-semibold text-xl'>টপিক ভিত্তিক ক্লাস</h3>
-                                        <p className='text-black font-normal text-base text-width'>- ৭ম শ্রেণির টপিক ভিক্তিক ক্লাসের মাধ্যমে জ্ঞান, অনুধাবন ও প্রয়োগমূলক শিক্ষা অর্জন হবে</p>
+                                        <p className='text-black font-normal text-base text-width'>- ৯ম শ্রেণির টপিক ভিক্তিক ক্লাসের মাধ্যমে জ্ঞান, অনুধাবন ও প্রয়োগমূলক শিক্ষা অর্জন হবে</p>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const Class9 = () => {
                                     <IoIosCheckmark size={40} className='text-red-800' />
                                     <div className='flex flex-col'>
                                         <h3 className='text-black font-semibold text-xl'>ডাউট সল্ভ</h3>
-                                        <p className='text-black font-normal text-base text-width'>- অনলাইন ক্লাসের টপিক নিয়ে যেকোনো জিজ্ঞাসা থাকলে তা সমাধানের জন্য ক্লাস শেষের ৩০ মিনিট পর্যন্ত দ্বিতীয় শিক্ষক থাকবেন</p>
+                                        <p className='text-black font-normal text-base text-width'>-ক্লাসের টপিক নিয়ে যেকোনো জিজ্ঞাসা থাকলে তা সমাধানের জন্য ক্লাস শেষের ৩০ মিনিট পর্যন্ত দ্বিতীয় শিক্ষক থাকবেন</p>
                                     </div>
                                 </div>
                                 <div className='flex items-start gap-x-3'>
@@ -90,14 +90,14 @@ const Class9 = () => {
                                     <IoIosCheckmark size={40} className='text-red-800' />
                                     <div className='flex flex-col'>
                                         <h3 className='text-black font-semibold text-xl'>বছরজুড়ে স্কিল ডেভেলপমেন্ট</h3>
-                                        <p className='text-black font-normal text-base text-width'>-৭ম শ্রেণির পড়াশোনার পাশাপাশি স্কিল সেশনসহ গণিত, বিজ্ঞান ও ইংরেজি অলিম্পিয়াড, সাংস্কৃতিক, ইনডোর গেম বিভিন্ন প্রতিযোগীতা আয়োজন করা হবে</p>
+                                        <p className='text-black font-normal text-base text-width'>-৯ম শ্রেণির পড়াশোনার পাশাপাশি স্কিল সেশনসহ গণিত, বিজ্ঞান ও ইংরেজি অলিম্পিয়াড, সাংস্কৃতিক, ইনডোর গেম বিভিন্ন প্রতিযোগীতা আয়োজন করা হবে</p>
                                     </div>
                                 </div>
                                 <div className='flex items-start gap-x-3'>
                                     <IoIosCheckmark size={40} className='text-red-800' />
                                     <div className='flex flex-col'>
                                         <h3 className='text-black font-semibold text-xl'>প্রোগ্রেস কার্ড</h3>
-                                        <p className='text-black font-normal text-base text-width'>-৭ম শ্রেণির শিক্ষার্থীদের জন্য থাকবে প্রোগ্রেস কার্ড</p>
+                                        <p className='text-black font-normal text-base text-width'>-৯ম শ্রেণির শিক্ষার্থীদের জন্য থাকবে প্রোগ্রেস কার্ড</p>
                                     </div>
                                 </div>
                             </div>
@@ -153,20 +153,20 @@ const Class9 = () => {
                         <h2 className='text-zinc-950 text-2xl font-semibold'>প্রোগ্রাম সম্পর্কে বিস্তারিত</h2>
                         <div className='border border-2 rounded-md p-5 space-y-5'>
                             <details className='border-b-2 pb-3'>
-                                <summary className='text-zinc-600 text-[18px] font-semibold'>Why Shaptorshi?</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold'>কেনো সপ্তর্ষী?</summary>
                                 <div className='px-5 py-3 mt-2  '>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
-                                        <li>৭ম শ্রেণির নতুন কারিকুলাম অনুযায়ী একাডেমিক লাইফে সঠিক পড়াশুনার রুটিন থাকবে</li>
-                                        <li>৭ম শ্রেণির বইয়ের শিখনফলগুলো বাস্তব জীবনে প্রয়োগ করতে পারবে</li>
+                                        <li>৯ম শ্রেণির নতুন কারিকুলাম অনুযায়ী একাডেমিক লাইফে সঠিক পড়াশুনার রুটিন থাকবে</li>
+                                        <li>৯ম শ্রেণির বইয়ের শিখনফলগুলো বাস্তব জীবনে প্রয়োগ করতে পারবে</li>
                                         <li>টপিকের বেসিক প্রিপারেশন যাচাই করার জন্য ডেইলি প্র্যাকটিস করতে পারবে</li>
-                                        <li>৭ম শ্রেণির ডেমো অ্যাসাইনমেন্ট (একক ও দলীয়) প্র্যাকটিস করতে পারবে</li>
-                                        <li>৭ম শ্রেণির সিলেবাস ভিত্তিক যেকোনো ডাউট সল্ভ করতে পারবে</li>
+                                        <li>৯ম শ্রেণির ডেমো অ্যাসাইনমেন্ট (একক ও দলীয়) প্র্যাকটিস করতে পারবে</li>
+                                        <li>৯ম শ্রেণির সিলেবাস ভিত্তিক যেকোনো ডাউট সল্ভ করতে পারবে</li>
                                         <li>ঘরে বসেই দেশসেরা শিক্ষকের সাথে লেখাপড়া করতে পারবে</li>
                                     </ul>
                                 </div>
                             </details>
                             <details className=''>
-                                <summary className='text-zinc-600 text-[18px] font-semibold'>Class-7 Course Materials</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold'>৯মশ্রেণির শিখন বিষয়</summary>
                                 <div className='px-5 py-3 mt-2'>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
                                         <li>৬ টি বিষয় (গণিত, বিজ্ঞান, বাংলা, ইংরেজি, ডিজিটাল প্রযুক্তি, ইতিহাস ও সামাজিক বিজ্ঞান)</li>
@@ -182,22 +182,22 @@ const Class9 = () => {
                     </div>
                     {/* Students Comments Carousel */}
                     <div>
-                        <StudentsCommentS/>
+                        <StudentsCommentS />
                     </div>
                     {/* Some Qustuions */}
                     <div className='space-y-5'>
                         <h2 className='text-zinc-950 text-2xl font-semibold'>সচরাচর জিজ্ঞাসা</h2>
                         <div className='border border-2 rounded-md p-5 space-y-5'>
                             <details className='border-b-2 pb-3'>
-                                <summary className='text-zinc-600 text-[18px] font-semibold'>For Whome?</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold'>কাদের জন্য?</summary>
                                 <div className='px-5 py-3 mt-2  '>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
-                                        <li>২০২৪ সালের ৭ম শ্রেণির শিক্ষার্থীদের জন্য</li>
+                                        <li>২০২৪ সালের ৯ম শ্রেণির শিক্ষার্থীদের জন্য</li>
                                     </ul>
                                 </div>
                             </details>
                             <details className='border-b-2 pb-3'>
-                                <summary className='text-zinc-600 text-[18px] font-semibold'>Is Shaptorshi accepted any english version syudent?</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold'>এখানে কি ইংরেজি ভার্সনের শিক্ষার্থীদের পড়ার সুযোগ আছে?</summary>
                                 <div className='px-5 py-3 mt-2'>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
                                         <li>না, আমাদের ক্লাস গুলো বাংলা ভার্শনের শিক্ষার্থীদের জন্য সাজানো হয়েছে</li>
@@ -205,7 +205,7 @@ const Class9 = () => {
                                 </div>
                             </details>
                             <details className='border-b-2 pb-3'>
-                                <summary className='text-zinc-600 text-[18px] font-semibold'>When class Will be Started?</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold'>ক্লাস শুরু কবে থেকে?</summary>
                                 <div className='px-5 py-3 mt-2'>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
                                         <li>0১ ই জানুয়ারী থেকে ক্লাস শুরু হবে</li>
@@ -213,15 +213,15 @@ const Class9 = () => {
                                 </div>
                             </details>
                             <details className='border-b-2 pb-3'>
-                                <summary className='text-zinc-600 text-[18px] font-semibold'>Class Locaton?</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold'>ক্লাস কোথায় নেওয়া হবে?</summary>
                                 <div className='px-5 py-3 mt-2'>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
-                                        <li>On Our Coaching Campus</li>
+                                        <li>সপ্তর্ষী বিদ্যাপীঠের নিজস্ব ভবনে</li>
                                     </ul>
                                 </div>
                             </details>
                             <details className='border-b-2 pb-3'>
-                                <summary className='text-zinc-600 text-[18px] font-semibold '>Class Time?</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold '>ক্লাসের সময়?</summary>
                                 <div className='px-5 py-3 mt-2'>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
                                         <li>For Morning Shift 08:00am-11:00am</li>
@@ -230,7 +230,7 @@ const Class9 = () => {
                                 </div>
                             </details>
                             <details className=''>
-                                <summary className='text-zinc-600 text-[18px] font-semibold'>Lecture Shit?</summary>
+                                <summary className='text-zinc-600 text-[18px] font-semibold'>কোনো লেকচার শীট কি দেওয়া হবে?</summary>
                                 <div className='px-5 py-3 mt-2'>
                                     <ul className='list-disc text-base text-gray-500 header-text-width space-y-3'>
                                         <li>হ্যাঁ, অধ্যায় ভিক্তিক লেকচার শিট দেওয়া হবে</li>

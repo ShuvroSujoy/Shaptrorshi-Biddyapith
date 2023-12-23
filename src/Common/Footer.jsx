@@ -53,30 +53,30 @@ const Footer = () => {
                 </div>
                 {/* 2nd Footer */}
                 <div className='flex flex-col justify-start items-start gap-y-2'>
-                    <h1 className='text-3xl text-red-600 font-bold'>Motivation</h1>
+                    <h1 className='text-3xl text-red-600 font-bold'>উদ্দীপনা</h1>
                     <div className='flex justify-center items-center gap-2 hover:ml-[3px] text-white hover:text-red-600'>
                         <BsFillArrowRightSquareFill size={20}  />
-                        <p className='text-base'>Every Month Gift Is Given to The Most Attentive Student</p>
+                        <p className='text-base'>প্রতি মাসে সর্বোচ্চ উপস্থিতি পুরস্কার প্রদান</p>
                     </div>
                     <div className='hover:textred-600 text-white flex justify-center items-center gap-2 hover:ml-[3px] text-white hover:text-red-600'>
                         <BsFillArrowRightSquareFill size={20} />
-                        <p className='text-base'>Weekly PRESENTATION Prize</p>
+                        <p className='text-base'>সাপ্তাহিক PRESENTATION পুরস্কার প্রদান</p>
                     </div>
                     <div className='hover:textred-600 text-white flex justify-center items-center gap-2 hover:ml-[3px] hover:text-red-600'>
                         <BsFillArrowRightSquareFill size={20}/>
-                        <p className='text-base'>Best PRESENTATOR/DEBATOR Prize</p>
+                        <p className='text-base'>প্রতি মাসে শ্রেষ্ঠ PRESENTATOR/DEBATOR পুরস্কার প্রদান </p>
                     </div>
                     <div className='hover:textred-600 text-white hover:text-red-600 flex justify-center items-center gap-2 hover:ml-[3px]'>
                         <BsFillArrowRightSquareFill size={20}  />
-                        <p className='text-base '>HAlf Yearly Exam Prize</p>
+                        <p className='text-base '>অর্ধ-বার্ষিকী মূল্যায়ন পুরস্কার প্রদান</p>
                     </div>
                     <div className='hover:textred-600 text-white hover:text-red-600 flex justify-center items-center gap-2 hover:ml-[3px]'>
                         <BsFillArrowRightSquareFill size={20}  />
-                        <p className='text-base'>Year Final Exam Prize</p>
+                        <p className='text-base'>বার্ষিক মূল্যায়ন পুরস্কার প্রদান</p>
                     </div>
                     <div className='hover:textred-600 text-white hover:text-red-600 flex justify-center items-center gap-2 hover:ml-[3px]'>
                         <BsFillArrowRightSquareFill size={20}  />
-                        <p className='text-base'>Yearly Study Tour</p>
+                        <p className='text-base'>বার্ষিক শিক্ষা সফর</p>
                     </div>
                 </div>
                 {/* 3rd Footer */}

@@ -22,10 +22,10 @@ const Header = () => {
                     <p className='uppercase md:text-3xl text-xl text-red-600 hover:text-red-800 lg:font-extrabold font-bold'><Link to='/'>সপ্তর্ষী বিদ্যাপীঠ</Link></p>
                 </div>
                 <div className='lg:flex gap-x-5 hidden'>
-                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/'>Home</Link></h2>
-                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/course'>Courses</Link></h2>
-                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/aboutus'>About Us</Link></h2>
-                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/admission'>Admission</Link></h2>
+                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/'>হোম</Link></h2>
+                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/course'>সেবা সমূহ</Link></h2>
+                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/aboutus'>আমাদের সম্পর্কে</Link></h2>
+                    <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/admission'>ভর্তি</Link></h2>
                 </div>
                 <a href={`tel:${phoneNumber}`} className='group flex items-center gap-x-2'>
                     <MdMobileFriendly size={25} className='text-red-800 group-hover:text-red-600 font-bold hidden lg:flex md:flex' />
@@ -39,10 +39,10 @@ const Header = () => {
                     <BiMenu onClick={showDrawer} size={40} className='text-red-800' />
                     <Drawer placement="left" onClose={onClose} open={open}>
                         <div className='flex flex-col gap-y-5 items-center'>
-                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/'>Home</Link></h2>
-                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/course'>Courses</Link></h2>
-                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/aboutus'>About Us</Link></h2>
-                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/admission'>Admission</Link></h2>
+                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/'>হোম</Link></h2>
+                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/course'>সেবা সমূহ</Link></h2>
+                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/aboutus'>আমাদের সম্পর্কে</Link></h2>
+                            <h2 className='text-xl font-SptFont text-red-800 hover:text-red-600'><Link to='/admission'>ভর্তি</Link></h2>
                             <div className='group flex items-center gap-x-2'>
                                 <MdMobileFriendly size={30} className='text-xl font-SptFont text-red-800 hover:text-red-600  lg:hidden md:hidden' />
                                 <p className='text-xl font-SptFont text-red-800 hover:text-red-600 group-hover:text-red-600  lg:hidden md:hidden'>+8801628-190818</p>

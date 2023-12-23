@@ -41,28 +41,28 @@ const SptService = () => {
       </div>
       <div className="lg:mx-20 md:mx-10 mx-2 mt-10">
         <Slider {...settings}>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptFamily.JPG" alt="" />
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/SptFamily.JPG" alt="" />
             <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">সপ্তর্ষী পরিবার</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptPize2023.jpg" alt="" />
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/SptPize2023.jpg" alt="" />
             <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">বার্ষিক পুরস্কার বিতরণ অনুষ্ঠান-2023</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptCulture1.jpg" alt="" />
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/SptCulture1.jpg" alt="" />
             <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">সাংস্কৃতিক অনুষ্ঠানের একাংশ</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptAudiances.jpg" alt="" />
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/SptAudiances.jpg" alt="" />
             <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">অভিভাবক সমাবেশ</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/SptSports.jpg" alt="" />
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/SptSports.jpg" alt="" />
             <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2">ক্রীড়াঙ্গনে সপ্তর্ষী</h2>
           </div>
-          <div className="">
-            <img className="h-[300px] md:w-[400px]  rounded-md" src="public/Image/presentation1.jpg" alt="" />
+          <div className="px-2">
+            <img className="h-[300px] md:w-full  rounded-md" src="public/Image/presentation1.jpg" alt="" />
             <h2 className="text-2xl text-red-800 font-SptFont text-center mt-2 uppercase">Students Presentation</h2>
           </div>
         </Slider>
